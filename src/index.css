@@ -1,0 +1,27 @@
+@import "modern-normalize/modern-normalize.css";
+
+/* Базові токени/ресети */
+:root {
+  --bg: #0f1115;
+  --fg: #e8e8e8;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+  background: none;
+  border: none;
+}
+
+
